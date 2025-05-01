@@ -1,0 +1,46 @@
+.player-tank {
+    position: absolute;
+    background-color: yellow;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.player-tank.up::after {
+    content: '▲';
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.player-tank.down::after {
+    content: '▼';
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.player-tank.left::after {
+    content: '◀';
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.player-tank.right::after {
+    content: '▶';
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.player-tank.dead::after {
+    content: '☠';
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
